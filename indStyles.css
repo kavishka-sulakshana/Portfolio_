@@ -80,9 +80,10 @@ html{
 
 
 .containerType1{
+    height: 80vh;
     margin-top:20px ;
     margin-bottom:60px ;
-    max-width: 1200px;
+    max-width: 80%;
     background-color: #ffffff9f;
     border-radius: 5px;
     margin-left: auto;
@@ -169,7 +170,7 @@ html{
 .box_contct{
     width: 280px;
     padding: 8px;
-    margin: 7px 15px 7px 15px;
+    margin: 7px 0 17px;
     border-radius: 12px;
     border-width: 1px;
     border-color: black;
@@ -231,8 +232,10 @@ div.image{
     
 }
 div.image img{
-    border-radius: 300px;
+    /* border-radius: 300px; */
     width: 300px;
+    height: 300px;
+    object-fit: cover;
     
 }
 
@@ -312,6 +315,9 @@ div.image img{
         display: none;
         transition: all 0.5s;
     }
+    .box_contct{
+        width: 100%;
+    }
     .nav_bar ul{
         flex-direction: column;
     }
@@ -322,6 +328,7 @@ div.image img{
         padding: 20px 35px 20px 35px;
     }
     .containerType1{
+        height: unset;
         flex-direction: column-reverse;
         max-width: 500px;
         margin-bottom:30px ;
@@ -376,7 +383,7 @@ div.image img{
         margin-top: 14px;
         margin-left: 30px;
     }
-
+    
     .containerType1{
         flex-direction: column-reverse;
         max-width: 350px;

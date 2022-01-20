@@ -9,7 +9,7 @@ bars.addEventListener("click",function () {
 
 i=0;
 let TypeW = document.getElementById("TypeW");
-const x = ["Kavishka Sulakshana","a Software Developer","a video editor"];
+const x = ["Kavishka Sulakshana","a Software Developer","a web developer","an undergraduate student"];
 let rand = 0;
 text = x[rand];
 count = 40;
